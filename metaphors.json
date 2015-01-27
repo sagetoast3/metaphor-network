@@ -1,0 +1,2444 @@
+{
+  "views": {
+    "view": [
+      {
+        "name": "Body Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Body",
+        "origin": "mml",
+        "timestamp": "2002-07-25T15:53:49"
+      },
+      {
+        "name": "Emotions Are Entities Within A Person",
+        "source_domain": "Entities",
+        "target_domain": "Emotions",
+        "parent": "Body Is A Container",
+        "examples": { "example": "I was filled with rage" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T15:56:14"
+      },
+      {
+        "name": "Abilities Are Entities Inside A Person",
+        "source_domain": "Entities",
+        "target_domain": "Abilities",
+        "parent": "Body Is A Container",
+        "examples": { "example": "he doesn't have it in him to be polite" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T15:57:50"
+      },
+      {
+        "name": "Life Is A Journey",
+        "source_domain": "Journey",
+        "target_domain": "Life",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:00:30"
+      },
+      {
+        "name": "Career Is A Journey",
+        "source_domain": "Journey",
+        "target_domain": "Career",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:00:51"
+      },
+      {
+        "name": "Love Is A Journey",
+        "source_domain": "Journey",
+        "target_domain": "Love",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:01:04"
+      },
+      {
+        "name": "Purposeful Activity Is A Journey",
+        "source_domain": "Journey",
+        "target_domain": "Purposeful Activity",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:02:09"
+      },
+      {
+        "name": "Linear Scales Are Paths",
+        "source_domain": "Paths",
+        "target_domain": "Linear Scales",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:02:58"
+      },
+      {
+        "name": "Harming Is Lowering",
+        "source_domain": "Lowering",
+        "target_domain": "Harming",
+        "parent": "Benevolence Is Changing Height",
+        "examples": { "example": "that was a demeaning comment" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:05:31"
+      },
+      {
+        "name": "Helping/Nurturing Is Raising",
+        "source_domain": "Raising",
+        "target_domain": "Helping",
+        "parent": "Benevolence Is Changing Height",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:06:13"
+      },
+      {
+        "name": "Rational Is Up",
+        "source_domain": "Up",
+        "target_domain": "Rational",
+        "examples": { "example": "high level intellectual discussion" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:07:01"
+      },
+      {
+        "name": "Euphoric States Are Up",
+        "source_domain": "Up",
+        "target_domain": "Euphoric States",
+        "examples": { "example": "he's feeling high" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:07:57"
+      },
+      {
+        "name": "Control Is Up",
+        "source_domain": "Up",
+        "target_domain": "Control",
+        "examples": { "example": "i have it under control" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:09:18"
+      },
+      {
+        "name": "Time Is Money",
+        "source_domain": "Money",
+        "target_domain": "Time",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:12:36"
+      },
+      {
+        "name": "Ideas Are Resources",
+        "source_domain": "Resources",
+        "target_domain": "Ideas",
+        "parent": "Ideas Are Physical Objects",
+        "examples": { "example": "i ran out of ideas" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:14:28"
+      },
+      {
+        "name": "Ideas Are Physical Objects",
+        "source_domain": "Physical Objects",
+        "target_domain": "Ideas",
+        "examples": { "example": "he had big ideas" },
+        "origin": "atmetdb",
+        "timestamp": "2002-07-25T16:15:47"
+      },
+      {
+        "name": "Ideas Are Money",
+        "source_domain": "Money",
+        "target_domain": "Ideas",
+        "parent": "Ideas Are Resources",
+        "examples": { "example": "all my ideas are spent" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:16:42"
+      },
+      {
+        "name": "Investments Are Containers For Money",
+        "source_domain": "Container",
+        "target_domain": "Investment",
+        "examples": {
+          "example": [
+            "put your money in your hands",
+            "the bottom of the economy dropped out"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:18:27"
+      },
+      {
+        "name": "Money Is A Liquid",
+        "source_domain": "Liquid",
+        "target_domain": "Money",
+        "examples": { "example": "cash flow" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:19:46"
+      },
+      {
+        "name": "Well-being Is Wealth",
+        "source_domain": "Wealth",
+        "target_domain": "Well-being",
+        "parent": "Self Is A Bank",
+        "examples": { "example": "enriched my life" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:32:32"
+      },
+      {
+        "name": "Self Is A Bank",
+        "source_domain": "Money",
+        "target_domain": "Self",
+        "examples": { "example": "spiritually bankrupt" },
+        "origin": "self",
+        "timestamp": "2002-07-25T16:33:20"
+      },
+      {
+        "name": "Social Accounting",
+        "source_domain": "Money",
+        "target_domain": "Society",
+        "parent": "Self Is A Bank",
+        "examples": { "example": "he profited from the experience" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:35:12"
+      },
+      {
+        "name": "Moral Accounting",
+        "source_domain": "Money",
+        "target_domain": "Morality",
+        "parent": "Self Is A Bank",
+        "examples": { "example": "i have to repay your kindness" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:35:49"
+      },
+      {
+        "name": "Causation Is Commercial Transaction",
+        "source_domain": "Money",
+        "target_domain": "Causation",
+        "examples": { "example": "profited from the experience" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:37:31"
+      },
+      {
+        "name": "Comparing And Seeking Is Shopping",
+        "source_domain": "Money",
+        "target_domain": "Comparison",
+        "examples": {
+          "example": [
+            "do you buy that idea?",
+            "i'm shopping for a better philosophy"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:40:06"
+      },
+      {
+        "name": "Non-physical Experiences Are Physical Experiences",
+        "source_domain": "Physical Experiences",
+        "target_domain": "Non-physical Experiences",
+        "origin": "self",
+        "timestamp": "2002-07-25T16:41:29"
+      },
+      {
+        "name": "Interpersonal Harmony Is Musical Harmony",
+        "source_domain": "Music",
+        "target_domain": "Relationship",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": { "example": "lets make funky music together" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:43:17"
+      },
+      {
+        "name": "Love Is A Unity (of Two Complementary Parts)",
+        "source_domain": "Unity",
+        "target_domain": "Love",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": {
+          "example": [
+            "we are one",
+            "single"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:45:06"
+      },
+      {
+        "name": "Harm Is Physical Injury",
+        "source_domain": "Injury",
+        "target_domain": "Harm",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": {
+          "example": [
+            "it was a traumatic experience",
+            "her death must hurt him"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:45:53"
+      },
+      {
+        "name": "Relationship Is Kinship",
+        "source_domain": "Kinship",
+        "target_domain": "Relationship",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:46:43"
+      },
+      {
+        "name": "Emotional Intimacy Is Physical Closeness",
+        "source_domain": "Distance",
+        "target_domain": "Intimacy",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": { "example": "i feel close to him" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:48:20"
+      },
+      {
+        "name": "Compliance Is Adherence",
+        "source_domain": "Adherence",
+        "target_domain": "Compliance",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": { "example": "he stuck by his word" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:49:45"
+      },
+      {
+        "name": "Compliance Is Following",
+        "source_domain": "Following",
+        "target_domain": "Compliance",
+        "parent": "Non-physical Experiences Are Physical Experiences",
+        "examples": { "example": "he went along with what he was told to do" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:51:30"
+      },
+      {
+        "name": "Attributes Are Entities Inside A Person",
+        "source_domain": "Entities",
+        "target_domain": "Attributes",
+        "parent": "Body Is A Container",
+        "examples": { "example": "he doesnt have it in him to be polite" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T16:57:22"
+      },
+      {
+        "name": "Properties Are Physical Properties",
+        "source_domain": "Physical Properties",
+        "target_domain": "Properties",
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:01:20"
+      },
+      {
+        "name": "Conceit Is Inflation",
+        "source_domain": "Inflation",
+        "target_domain": "Conceit",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "he was swollen with pride",
+            "he had an inflated ego",
+            "he was big-headed"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:02:40"
+      },
+      {
+        "name": "External Appearance Is A Cover",
+        "source_domain": "Cover",
+        "target_domain": "Appearance",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "put on a happy face" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:04:17"
+      },
+      {
+        "name": "Intoxication Is Getting A Burden",
+        "source_domain": "Burden",
+        "target_domain": "Intoxication",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "she was loaded",
+            "she was tanked up"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:05:02"
+      },
+      {
+        "name": "Intoxication Is Getting Destroyed",
+        "source_domain": "Destruction",
+        "target_domain": "Intoxication",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "she was wrecked",
+            "she was smashed"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:07:19"
+      },
+      {
+        "name": "Intoxication Is Being Electrified",
+        "source_domain": "Electrified",
+        "target_domain": "Intoxication",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "he was wired",
+            "he was lit"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:09:31"
+      },
+      {
+        "name": "Personality Is Material",
+        "source_domain": "Material",
+        "target_domain": "Personality",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "he has a heart of gold" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:10:33"
+      },
+      {
+        "name": "States Are Locations",
+        "source_domain": "Locations",
+        "target_domain": "States",
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:12:01"
+      },
+      {
+        "name": "Pain Is A Location",
+        "source_domain": "Location",
+        "target_domain": "Pain",
+        "parent": "States Are Locations",
+        "examples": { "example": "i could not get away from the pain" },
+        "origin": "self",
+        "timestamp": "2002-07-25T17:14:56"
+      },
+      {
+        "name": "Creating Is Moving To A Location",
+        "source_domain": "Location",
+        "target_domain": "Creating",
+        "parent": "States Are Locations",
+        "examples": { "example": "aspirin makes your headaches go away" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:15:36"
+      },
+      {
+        "name": "Harm Is Being In A Harmful Location",
+        "source_domain": "Location",
+        "target_domain": "Harm",
+        "parent": "States Are Locations",
+        "examples": { "example": "your in danger" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:16:07"
+      },
+      {
+        "name": "Emotions Are Locations",
+        "source_domain": "Location",
+        "target_domain": "Emotion",
+        "parent": "States Are Locations",
+        "examples": {
+          "example": "
+we are in a world of happiness because it is lunch time
+"
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:16:59"
+      },
+      {
+        "name": "Inanimate Beings Are Animate",
+        "source_domain": "Animate",
+        "target_domain": "Inanimate Beings",
+        "origin": "self",
+        "timestamp": "2002-07-25T17:18:00"
+      },
+      {
+        "name": "Machines Are People",
+        "source_domain": "People",
+        "target_domain": "Machines",
+        "parent": "Inanimate Beings Are Animate",
+        "examples": { "example": "the blender just died" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:19:24"
+      },
+      {
+        "name": "Time Is A Resource",
+        "source_domain": "Resource",
+        "target_domain": "Time",
+        "examples": { "example": "running out of time" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:21:24"
+      },
+      {
+        "name": "Time Is A Landscape We Move Through",
+        "source_domain": "Landscape",
+        "target_domain": "Time",
+        "examples": {
+          "example": [
+            "three o'clock seems a long way off",
+            "that was way back",
+            "so far"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:24:43"
+      },
+      {
+        "name": "Time Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Time",
+        "examples": {
+          "example": [
+            "just in time",
+            "in three hours",
+            "we are out of time"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:25:57"
+      },
+      {
+        "name": "Time Is A Changer",
+        "source_domain": "Changer",
+        "target_domain": "Time",
+        "examples": { "example": "time has not been kind to him" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:28:42"
+      },
+      {
+        "name": "Time Is A Pursuer",
+        "source_domain": "Pursuer",
+        "target_domain": "Time",
+        "examples": { "example": "time will catch up with him" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:29:51"
+      },
+      {
+        "name": "Past Is A Pursuer",
+        "source_domain": "Pursuer",
+        "target_domain": "Past",
+        "parent": "Time Is A Pursuer",
+        "examples": { "example": "his past is catching up with him" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:31:04"
+      },
+      {
+        "name": "
+Necessary Prerequisite For Change Is Source Of Moving Entity
+",
+        "source_domain": "Necessary Prerequisite For Change",
+        "target_domain": "Source Of Moving Entity",
+        "examples": { "example": "slide into insanity" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:33:34"
+      },
+      {
+        "name": "Time Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Time",
+        "examples": {
+          "example": [
+            "i was still there",
+            "time flies"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:34:33"
+      },
+      {
+        "name": "Time Is An Object Moving Toward You",
+        "source_domain": "Object Moving Toward You",
+        "target_domain": "Time",
+        "parent": "Time Is Motion",
+        "examples": { "example": "when tuesday comes" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:36:11"
+      },
+      {
+        "name": "Change Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Change",
+        "examples": { "example": "the caterpillar turned into a butterfly" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:37:08"
+      },
+      {
+        "name": "Disparity Is Change",
+        "source_domain": "Change",
+        "target_domain": "Disparity",
+        "parent": "Change Is Motion",
+        "examples": { "example": "his girlfriends keep getting taller" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:38:06"
+      },
+      {
+        "name": "Change Of State Is Change Of Direction",
+        "source_domain": "Change Of Direction",
+        "target_domain": "Change Of State",
+        "parent": "Change Is Motion",
+        "examples": { "example": "he turned all funny" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:38:59"
+      },
+      {
+        "name": "Form Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Change",
+        "parent": "Disparity Is Change",
+        "examples": {
+          "example": [
+            "the roof slopes",
+            "the tower leans",
+            "the road led me to an inn"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:40:13"
+      },
+      {
+        "name": "Force Is A Moving Object",
+        "source_domain": "Moving Object",
+        "target_domain": "Force",
+        "examples": { "example": "greed is the strongest evil force at work in me" },
+        "origin": "mml",
+        "timestamp": "2002-07-25T17:41:38"
+      },
+      {
+        "name": "Mind As Physical Space",
+        "source_domain": "Physical Space",
+        "target_domain": "Mind",
+        "examples": { "example": "he put the idea to the back of his mind" },
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T11:28:37"
+      },
+      {
+        "name": "Emotional Stability Is Balance",
+        "source_domain": "Balance",
+        "target_domain": "Emotional Stability",
+        "parent": "Mind As Physical Space",
+        "examples": { "example": "I am teetering on the brink of a breakdown" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:30:09"
+      },
+      {
+        "name": "Emotional Stability Is Contact With The Ground",
+        "source_domain": "Contact With The Ground",
+        "target_domain": "Emotional Stability",
+        "parent": "Mind As Physical Space",
+        "examples": { "example": "I feel uprooted" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:31:16"
+      },
+      {
+        "name": "Emotional Stability Is Maintaining Position",
+        "source_domain": "Position",
+        "target_domain": "Emotional Stability",
+        "parent": "Mind As Physical Space",
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:34:25"
+      },
+      {
+        "name": "Conducting Research Is Solving A Puzzle",
+        "source_domain": "Solving A Puzzle",
+        "target_domain": "Research",
+        "parent": "Mind As Physical Space",
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:35:39"
+      },
+      {
+        "name": "Problem Is A Region In A Landscape",
+        "source_domain": "Landscape",
+        "target_domain": "Problem",
+        "parent": "Mind As Physical Space",
+        "examples": { "example": "are we all thinking on the same lines" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:36:59"
+      },
+      {
+        "name": "Problem Is A Body Of Water",
+        "source_domain": "Water",
+        "target_domain": "Problem",
+        "parent": "Mind As Physical Space",
+        "examples": { "example": "oceans of despair" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:37:58"
+      },
+      {
+        "name": "Subjects Are Areas",
+        "source_domain": "Location",
+        "target_domain": "Ideas",
+        "parent": "Mind As Physical Space",
+        "examples": {
+          "example": [
+            "that is my area of research",
+            "these subjects overlap"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:39:47"
+      },
+      {
+        "name": "Ideas Are Locations",
+        "source_domain": "Locations",
+        "target_domain": "Ideas",
+        "parent": "Mind As Physical Space",
+        "examples": { "example": "don't jump to conclusions" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:40:31"
+      },
+      {
+        "name": "Cognizing As Seeing",
+        "source_domain": "Seeing",
+        "target_domain": "Cognizing",
+        "examples": { "example": "I see what you mean" },
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T11:42:25"
+      },
+      {
+        "name": "Creating Is Making Visible",
+        "source_domain": "Visible",
+        "target_domain": "Creation",
+        "parent": "Cognizing As Seeing",
+        "examples": { "example": "the current policy is making new problems appear" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:44:15"
+      },
+      {
+        "name": "Attention Is Seeing",
+        "source_domain": "Seeing",
+        "target_domain": "Attention",
+        "parent": "Cognizing As Seeing",
+        "examples": {
+          "example": [
+            "see to it that she is well",
+            "look to your health"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-07-26T11:45:16"
+      },
+      {
+        "name": "Strong Emotions Are Blinding",
+        "source_domain": "Blinding",
+        "target_domain": "Emotions",
+        "parent": "Cognizing As Seeing",
+        "examples": { "example": "blinded with rage" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:46:24"
+      },
+      {
+        "name": "Ideas Are A Light Source",
+        "source_domain": "Light",
+        "target_domain": "Ideas",
+        "parent": "Cognizing As Seeing",
+        "examples": { "example": "bright idea" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:47:46"
+      },
+      {
+        "name": "Intelligence Is A Light Source",
+        "source_domain": "Light",
+        "target_domain": "Intelligence",
+        "parent": "Cognizing As Seeing",
+        "examples": { "example": "flashes of wit" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:48:38"
+      },
+      {
+        "name": "Perception Is Shape Recognition",
+        "source_domain": "Shape",
+        "target_domain": "Perception",
+        "parent": "Cognizing As Seeing",
+        "examples": { "example": "I can't figure him out" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:50:14"
+      },
+      {
+        "name": "Ideas As External Entities",
+        "source_domain": "Entities",
+        "target_domain": "Ideas",
+        "examples": { "example": "he crashed into her thoughts" },
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T11:56:07"
+      },
+      {
+        "name": "Psychological Forces Are Physical Forces",
+        "source_domain": "Forces",
+        "target_domain": "Psychological Forces",
+        "parent": "Ideas As External Entities",
+        "examples": {
+          "example": [
+            "he exerted influence on her",
+            "your love has swept me off my feet"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:57:24"
+      },
+      {
+        "name": "Sexuality Is An Offensive Weapon",
+        "source_domain": "Weapon",
+        "target_domain": "Sexuality",
+        "parent": "Ideas As External Entities",
+        "origin": "mml",
+        "timestamp": "2002-07-26T11:58:49"
+      },
+      {
+        "name": "Mind As Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Mind",
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T12:00:17"
+      },
+      {
+        "name": "Emotional Self Is A Brittle Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Emotional Self",
+        "parent": "Mind As Physical Object",
+        "examples": { "example": "I am shattered" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:02:20"
+      },
+      {
+        "name": "Feelings Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Feeling",
+        "origin": "self",
+        "timestamp": "2002-07-26T12:06:05"
+      },
+      {
+        "name": "
+Being Harmed Is Having A Needed Possession Taken Or Losing A Needed Possession
+",
+        "source_domain": "Possessions",
+        "target_domain": "Harm",
+        "parent": "Feelings Are Possessions",
+        "examples": {
+          "example": [
+            "I lost my job",
+            "the accident took my health"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:07:33"
+      },
+      {
+        "name": "Pain Is A Possession",
+        "source_domain": "Possessions",
+        "target_domain": "Pain",
+        "parent": "Feelings Are Possessions",
+        "examples": { "example": "I have a lot of pain" },
+        "origin": "self",
+        "timestamp": "2002-07-26T12:08:40"
+      },
+      {
+        "name": "Experiences Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Experience",
+        "examples": { "example": "I had the most wonderful experience" },
+        "origin": "self",
+        "timestamp": "2002-07-26T12:09:30"
+      },
+      {
+        "name": "Illness Is A Possession",
+        "source_domain": "Possessions",
+        "target_domain": "Illness",
+        "parent": "Feelings Are Possessions",
+        "origin": "self",
+        "timestamp": "2002-07-26T12:10:01"
+      },
+      {
+        "name": "Mind Is A Machine",
+        "source_domain": "Machine",
+        "target_domain": "Mind",
+        "examples": { "example": "he churns out ideas" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:11:46"
+      },
+      {
+        "name": "Thinking Is Calculating",
+        "source_domain": "Calculating",
+        "target_domain": "Thinking",
+        "parent": "Mind Is A Machine",
+        "examples": { "example": "to sum it up" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:13:00"
+      },
+      {
+        "name": "People Are Batteries",
+        "source_domain": "Batteries",
+        "target_domain": "People",
+        "parent": "Mind Is A Machine",
+        "examples": { "example": "I am charged up" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:13:51"
+      },
+      {
+        "name": "Mind Parts As Persons Or Other Animate Beings",
+        "source_domain": "People",
+        "target_domain": "Mind",
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T12:15:13"
+      },
+      {
+        "name": "Desire Is Hunger",
+        "source_domain": "Hunger",
+        "target_domain": "Desire",
+        "parent": "Mind Parts As Persons Or Other Animate Beings",
+        "examples": {
+          "example": [
+            "hungry for your love",
+            "sex starved"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:16:36"
+      },
+      {
+        "name": "Getting Is Eating",
+        "source_domain": "Eating",
+        "target_domain": "Getting",
+        "parent": "Desire Is Hunger",
+        "examples": { "example": "I have been feeding him funds" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:17:24"
+      },
+      {
+        "name": "Difficult Subjects Are Adversaries",
+        "source_domain": "Adversaries",
+        "target_domain": "Difficult Subjects",
+        "parent": "Ideas As External Entities",
+        "examples": { "example": "I have been fighting the equation" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:20:12"
+      },
+      {
+        "name": "Existence Is Life",
+        "source_domain": "Life",
+        "target_domain": "Existence",
+        "parent": "Mind Parts As Persons Or Other Animate Beings",
+        "examples": { "example": "that was the birth of my interest" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:21:13"
+      },
+      {
+        "name": "Beliefs Are Guides",
+        "source_domain": "Guides",
+        "target_domain": "Beliefs",
+        "parent": "Mind Parts As Persons Or Other Animate Beings",
+        "examples": { "example": "My beliefs led me to this decisions" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:22:22"
+      },
+      {
+        "name": "Creating Is Birthing",
+        "source_domain": "Birthing",
+        "target_domain": "Creating",
+        "parent": "Mind Parts As Persons Or Other Animate Beings",
+        "examples": { "example": "I gave birth to a lot of new problems" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:23:06"
+      },
+      {
+        "name": "Ideas As Physical Objects",
+        "source_domain": "Physical Objects",
+        "target_domain": "Ideas",
+        "origin": "atmetdb",
+        "timestamp": "2002-07-26T12:24:20"
+      },
+      {
+        "name": "Hope Is Light",
+        "source_domain": "Light",
+        "target_domain": "Hope",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "glimmer of hope" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:24:57"
+      },
+      {
+        "name": "
+Knowledge Of Past Events Is An External Event Exerting Force On
+",
+        "source_domain": "Force",
+        "target_domain": "Knowledge",
+        "parent": "Ideas As Physical Objects",
+        "examples": {
+          "example": [
+            "i am bound to repeat my mistakes",
+            "he is imprisoned by the past"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:26:23"
+      },
+      {
+        "name": "Ideas Are Food",
+        "source_domain": "Food",
+        "target_domain": "Ideas",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "his ideas were half baked" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:28:52"
+      },
+      {
+        "name": "Ideas Are Fashions",
+        "source_domain": "Fashions",
+        "target_domain": "Ideas",
+        "parent": "Ideas Are Physical Objects",
+        "examples": { "example": "what an old fashioned idea" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:29:45"
+      },
+      {
+        "name": "Problem Is A Constructed Object",
+        "source_domain": "Physical Objects",
+        "target_domain": "Problem",
+        "parent": "Ideas As Physical Objects",
+        "examples": {
+          "example": [
+            "the components of this problem",
+            "he took apart the problem"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:32:28"
+      },
+      {
+        "name": "Dangerous Beliefs Are A Contagious Disease",
+        "source_domain": "Disease",
+        "target_domain": "Beliefs",
+        "parent": "Ideas As External Entities",
+        "examples": { "example": "infected with ideas of socialism" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:35:22"
+      },
+      {
+        "name": "Beliefs Are Love Objects",
+        "source_domain": "Love Objects",
+        "target_domain": "Beliefs",
+        "parent": "Mind Parts As Persons Or Other Animate Beings",
+        "examples": {
+          "example": [
+            "he flirted with the belief",
+            "a tempting belief"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:38:41"
+      },
+      {
+        "name": "Anger Is Heat",
+        "source_domain": "Heat",
+        "target_domain": "Anger",
+        "parent": "Ideas Are Physical Objects",
+        "examples": { "example": "boiling with rage" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:39:19"
+      },
+      {
+        "name": "Affection Is Warmth",
+        "source_domain": "Warmth",
+        "target_domain": "Affection",
+        "parent": "Ideas Are Physical Objects",
+        "examples": { "example": "he is a warm person" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:39:57"
+      },
+      {
+        "name": "
+Concepts Are Points Set Up In Spatial Configuration
+",
+        "source_domain": "Points In Spatial Configuration",
+        "target_domain": "Concepts",
+        "parent": "Mind As Physical Space",
+        "origin": "team",
+        "timestamp": "2002-07-26T12:45:39"
+      },
+      {
+        "name": "States Are Objects",
+        "source_domain": "Physical Objects",
+        "target_domain": "States",
+        "origin": "self",
+        "timestamp": "2002-07-26T12:55:43"
+      },
+      {
+        "name": "Laughter Is A Substance",
+        "source_domain": "Physical Substance",
+        "target_domain": "Laughter",
+        "examples": { "example": "he let out a big laugh" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:56:29"
+      },
+      {
+        "name": "Existence Is A Location Here",
+        "source_domain": "Location",
+        "target_domain": "Existence",
+        "examples": { "example": "it came about" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:57:01"
+      },
+      {
+        "name": "States Are Shapes",
+        "source_domain": "Shapes",
+        "target_domain": "States",
+        "parent": "States Are Objects",
+        "examples": { "example": "I am out of shape" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T12:57:37"
+      },
+      {
+        "name": "Communication Is A Path",
+        "source_domain": "Path",
+        "target_domain": "Communication",
+        "examples": {
+          "example": [
+            "we are going round in circles",
+            "that comment was directed to you",
+            "a very pointed remark"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-07-26T13:46:40"
+      },
+      {
+        "name": "Communication Is Physical Contact",
+        "source_domain": "Physical Contact",
+        "target_domain": "Communication",
+        "examples": {
+          "example": [
+            "get in touch with",
+            "get in contact with"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-07-26T13:47:38"
+      },
+      {
+        "name": "Communication Is Linguistic Communication",
+        "source_domain": "Linguistic Communication",
+        "target_domain": "Communication",
+        "examples": { "example": "read my lips" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T13:48:25"
+      },
+      {
+        "name": "Seeing Is Touching",
+        "source_domain": "Touching",
+        "target_domain": "Seeing",
+        "origin": "mml",
+        "timestamp": "2002-07-26T13:48:44"
+      },
+      {
+        "name": "Inanimate Beings Are Animate Beings",
+        "source_domain": "Animate Beings",
+        "target_domain": "Inanimate Beings",
+        "origin": "self",
+        "timestamp": "2002-07-26T13:49:35"
+      },
+      {
+        "name": "Events Are Objects",
+        "source_domain": "Physical Objects",
+        "target_domain": "Events",
+        "parent": "Event Structure",
+        "origin": "mml",
+        "timestamp": "2002-07-26T13:51:31"
+      },
+      {
+        "name": "Conduit Metaphor",
+        "source_domain": "Transfer",
+        "target_domain": "Communication",
+        "examples": {
+          "example": [
+            "he found the knowledge in a book",
+            "he got the idea across to her"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T13:56:51"
+      },
+      {
+        "name": "Words Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "Words",
+        "parent": "Conduit Metaphor",
+        "examples": { "example": "big words" },
+        "origin": "self",
+        "timestamp": "2002-07-26T13:58:17"
+      },
+      {
+        "name": "Words Are Vehicles",
+        "source_domain": "Vehicles",
+        "target_domain": "Words",
+        "parent": "Conduit Metaphor",
+        "origin": "self",
+        "timestamp": "2002-07-26T13:59:23"
+      },
+      {
+        "name": "Words Are Objects",
+        "source_domain": "Physical Objects",
+        "target_domain": "Words",
+        "parent": "Ideas Are Objects",
+        "origin": "self",
+        "timestamp": "2002-07-26T14:00:36"
+      },
+      {
+        "name": "Competition Is War",
+        "source_domain": "War",
+        "target_domain": "Competition",
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:03:16"
+      },
+      {
+        "name": "Competition Is A Race",
+        "source_domain": "Race",
+        "target_domain": "Competition",
+        "parent": "Competition Is War",
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:03:48"
+      },
+      {
+        "name": "Competition Is One On One Physical Aggression",
+        "source_domain": "Physical Aggression",
+        "target_domain": "Competition",
+        "parent": "Competition Is War",
+        "examples": { "example": "he clobbered me at tennis" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:04:41"
+      },
+      {
+        "name": "
+Gaining Physical Intimacy Against Resistance Is A Competition
+",
+        "source_domain": "Competition",
+        "target_domain": "Physical Intimacy",
+        "examples": {
+          "example": [
+            "did you score last night",
+            "did you make it with her"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:07:09"
+      },
+      {
+        "name": "Theoretical Debate Is Competition",
+        "source_domain": "Competition",
+        "target_domain": "Theoretical Debate",
+        "examples": { "example": "my theory won" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:07:50"
+      },
+      {
+        "name": "Treating Illness Is Fighting A War",
+        "source_domain": "War",
+        "target_domain": "Illness",
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:08:23"
+      },
+      {
+        "name": "Words Are Weapons",
+        "source_domain": "Weapons",
+        "target_domain": "Words",
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:09:14"
+      },
+      {
+        "name": "Difficulties Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "Difficulties",
+        "examples": { "example": "how did i get myself into this situation" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:10:47"
+      },
+      {
+        "name": "Problem Is A Locked Container For Its Solution",
+        "source_domain": "Container",
+        "target_domain": "Problem",
+        "parent": "Difficulties Are Containers",
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:11:31"
+      },
+      {
+        "name": "Revelation Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Revelation",
+        "parent": "Change Is Motion",
+        "examples": {
+          "example": "
+it turned out to be the case that everything was ok
+"
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:17:40"
+      },
+      {
+        "name": "Problems Are Targets",
+        "source_domain": "Targets",
+        "target_domain": "Problems",
+        "examples": { "example": "he hit on the right solution" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:25:10"
+      },
+      {
+        "name": "Events Are Location",
+        "source_domain": "Locations",
+        "target_domain": "Events",
+        "parent": "Event Structure",
+        "examples": { "example": "i am going to football" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:29:26"
+      },
+      {
+        "name": "External Conditions Are Climate",
+        "source_domain": "Climate",
+        "target_domain": "External Conditions",
+        "examples": { "example": "the climate was right for a takeover" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:30:03"
+      },
+      {
+        "name": "Obligations Are Forces",
+        "source_domain": "Forces",
+        "target_domain": "Obligations",
+        "examples": { "example": "i was forced to do it" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:31:17"
+      },
+      {
+        "name": "
+External Events Affecting Progress Are Forces Affecting Forward Motion
+",
+        "source_domain": "Forces",
+        "target_domain": "Events",
+        "parent": "Obligations Are Forces",
+        "examples": { "example": "he was blown about by the winds of war" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:33:06"
+      },
+      {
+        "name": "Visual Field Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Visual Field",
+        "examples": { "example": "out of sight" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:34:23"
+      },
+      {
+        "name": "Change Is Replacement",
+        "source_domain": "Replacement",
+        "target_domain": "Change",
+        "examples": {
+          "example": "
+the am n iloved was gone and replaced with an aged fool
+"
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:35:59"
+      },
+      {
+        "name": "Causes And Effects Are Linked Objects",
+        "source_domain": "Objects",
+        "target_domain": "Causes",
+        "examples": {
+          "example": [
+            "it is part of the endless cycle of abuse",
+            "smoking is tied to numerous varieties of cancer"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:39:18"
+      },
+      {
+        "name": "Action Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Action",
+        "examples": { "example": "take action" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:40:31"
+      },
+      {
+        "name": "Action Is Control Over A Possession",
+        "source_domain": "Control",
+        "target_domain": "Action",
+        "examples": { "example": "take action" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:42:11"
+      },
+      {
+        "name": "Action Is Alive",
+        "source_domain": "Alive",
+        "target_domain": "Action",
+        "examples": { "example": "the party was really alive" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:43:01"
+      },
+      {
+        "name": "Acting On Is Transferring An Object",
+        "source_domain": "Transference",
+        "target_domain": "Action",
+        "examples": { "example": "what have you been doing to him" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:44:19"
+      },
+      {
+        "name": "
+Effect On Emotional Self Is Contact With Physical Self
+",
+        "source_domain": "Physical Self",
+        "target_domain": "Emotional Self",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "i was touched" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:45:57"
+      },
+      {
+        "name": "
+Change Toward Emotional Intimacy Is Movement Toward Physical Closeness
+",
+        "source_domain": "Physical Closeness",
+        "target_domain": "Emotional Intimacy",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "we're moving closer" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:47:14"
+      },
+      {
+        "name": "Emotions Are Forces",
+        "source_domain": "Forces",
+        "target_domain": "Emotions",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "i was moved by the poem" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:49:28"
+      },
+      {
+        "name": "Emotion Is Motion",
+        "source_domain": "Motion",
+        "target_domain": "Emotions",
+        "parent": "Ideas As Physical Objects",
+        "examples": { "example": "i was moved by the poem" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:49:51"
+      },
+      {
+        "name": "People Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "People",
+        "examples": { "example": "have you on the course" },
+        "origin": "self",
+        "timestamp": "2002-07-26T14:51:07"
+      },
+      {
+        "name": "Loved One Is A Possession",
+        "source_domain": "Possessions",
+        "target_domain": "Love",
+        "parent": "People Are Possessions",
+        "examples": { "example": "i'm yours be mine" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:51:47"
+      },
+      {
+        "name": "Obligations Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Obligation",
+        "examples": { "example": "i have a lot to do" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:52:31"
+      },
+      {
+        "name": "Opportunities Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Opportunity",
+        "examples": { "example": "dont lose this oppurtunity" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:53:37"
+      },
+      {
+        "name": "Properties Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Properties",
+        "examples": { "example": "she has a good sense of humour" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:54:30"
+      },
+      {
+        "name": "Possessing Is Holding",
+        "source_domain": "Holding",
+        "target_domain": "Possessing",
+        "examples": { "example": "i am going to drop some of my riskier stocks" },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:55:43"
+      },
+      {
+        "name": "Benefits Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Benefits",
+        "examples": { "example": "what benefits will iget from this medicine" },
+        "origin": "self",
+        "timestamp": "2002-07-26T14:56:27"
+      },
+      {
+        "name": "Perception Is Reception",
+        "source_domain": "Reception",
+        "target_domain": "Perception",
+        "examples": {
+          "example": [
+            "the sight of the cheesecake knocked me over",
+            "they drank in the view",
+            "i relish every word"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-07-26T14:57:46"
+      },
+      {
+        "name": "States Are Possessions",
+        "source_domain": "Objects",
+        "target_domain": "States",
+        "parent": "States Are Objects",
+        "origin": "self",
+        "timestamp": "2002-08-20T11:49:33"
+      },
+      {
+        "name": "Events Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "Events",
+        "parent": "Events Are Objects",
+        "examples": { "example": "what are you hoping to get out of it" },
+        "origin": "self",
+        "timestamp": "2002-08-20T11:50:39"
+      },
+      {
+        "name": "Membership Is Being Owned",
+        "source_domain": "Ownership",
+        "target_domain": "Membership",
+        "examples": { "example": "I belong to that group" },
+        "origin": "self",
+        "timestamp": "2002-08-20T11:51:47"
+      },
+      {
+        "name": "Time Is An Animate Being",
+        "source_domain": "Animate Being",
+        "target_domain": "Time",
+        "origin": "self",
+        "timestamp": "2002-08-20T11:52:24"
+      },
+      {
+        "name": "Waste Is Death",
+        "source_domain": "Death",
+        "target_domain": "Waste",
+        "parent": "Time Is A Resourcce",
+        "examples": { "example": "killing time" },
+        "origin": "self",
+        "timestamp": "2002-08-20T11:53:17"
+      },
+      {
+        "name": "Events Are Possessions",
+        "source_domain": "Possessions",
+        "target_domain": "Events",
+        "parent": "Events Are Objects",
+        "origin": "self",
+        "timestamp": "2002-08-20T11:53:58"
+      },
+      {
+        "name": "Location Is Height",
+        "source_domain": "Height",
+        "target_domain": "Location",
+        "examples": { "example": "down to the shops" },
+        "origin": "self",
+        "timestamp": "2002-08-20T11:55:10"
+      },
+      {
+        "name": "People Are Animals",
+        "source_domain": "Animals",
+        "target_domain": "People",
+        "origin": "self",
+        "timestamp": "2002-08-20T11:55:47"
+      },
+      {
+        "name": "Animate Being As Inanimate Object",
+        "source_domain": "Inanimate Object",
+        "target_domain": "Animate Being",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:01:39"
+      },
+      {
+        "name": "Home Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Home",
+        "examples": {
+          "example": "
+my husband is not stuck at hoe because he has outside interests
+"
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:05:49"
+      },
+      {
+        "name": "Pain Is A Sharp Object",
+        "source_domain": "Sharp Object",
+        "target_domain": "Pain",
+        "examples": { "example": "a sharp stab of pain" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:08:23"
+      },
+      {
+        "name": "Sound As A Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Sound",
+        "examples": { "example": "i cannot take this level of noise" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:11:40"
+      },
+      {
+        "name": "Control Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Control",
+        "examples": { "example": "I am not in control" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:12:19"
+      },
+      {
+        "name": "Chance Is A Possession",
+        "source_domain": "Possession",
+        "target_domain": "Chance",
+        "examples": { "example": "i only had one chance" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:12:55"
+      },
+      {
+        "name": "Anger Is Insanity",
+        "source_domain": "Insanity",
+        "target_domain": "Anger",
+        "examples": { "example": "i am mad with rage" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:18:33"
+      },
+      {
+        "name": "Effort Is Money",
+        "source_domain": "Money",
+        "target_domain": "Effort",
+        "examples": { "example": "going there is definitely worth it" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:19:29"
+      },
+      {
+        "name": "Importance Is Visibility",
+        "source_domain": "Visibility",
+        "target_domain": "Importance",
+        "examples": { "example": "arthritis is a hidden disease" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:20:14"
+      },
+      {
+        "name": "Illness Is A Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Illness",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:20:49"
+      },
+      {
+        "name": "Life Is A Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Life",
+        "examples": { "example": "i took my life into my own hands" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:21:45"
+      },
+      {
+        "name": "Problem As Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Problem",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:22:21"
+      },
+      {
+        "name": "Career As Possession",
+        "source_domain": "Possession",
+        "target_domain": "Career",
+        "examples": { "example": "I have a job" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:23:02"
+      },
+      {
+        "name": "Beliefs Are Tactile Objects",
+        "source_domain": "Tactile Objects",
+        "target_domain": "Beliefs",
+        "examples": { "example": "I believe in a cure and i feel that very strongly" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:24:55"
+      },
+      {
+        "name": "Mind As Possession",
+        "source_domain": "Possession",
+        "target_domain": "Mind",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:25:19"
+      },
+      {
+        "name": "Opportunities Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "Opportunities",
+        "examples": { "example": "what did you get out of it" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:27:15"
+      },
+      {
+        "name": "Assistance Is A Possession",
+        "source_domain": "Possession",
+        "target_domain": "I Offered My Assistance",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:27:53"
+      },
+      {
+        "name": "Membership Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Membership",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:28:24"
+      },
+      {
+        "name": "Control Is A Possession",
+        "source_domain": "Possession",
+        "target_domain": "Control",
+        "examples": {
+          "example": [
+            "i gained control",
+            "i can take control"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:29:49"
+      },
+      {
+        "name": "Conurbations Are Menageries",
+        "source_domain": "Menageries",
+        "target_domain": "Conurbations",
+        "examples": { "example": "london is a real rat race" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:31:38"
+      },
+      {
+        "name": "
+Communication Or Literature Or Media Are Containers For Information
+",
+        "source_domain": "Containers For Information",
+        "target_domain": "Communication",
+        "examples": { "example": "what did you get out of the article" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:34:13"
+      },
+      {
+        "name": "Importance As Height",
+        "source_domain": "Height",
+        "target_domain": "Importance",
+        "parent": "Properties Are Physical Properties",
+        "origin": "self",
+        "timestamp": "2002-08-20T12:36:08"
+      },
+      {
+        "name": "Events Are Objects Moving Towards You",
+        "source_domain": "Objects Moving Towards You",
+        "target_domain": "Events",
+        "examples": { "example": "the deadline is approaching" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:38:20"
+      },
+      {
+        "name": "Attention Is Possession",
+        "source_domain": "Possession",
+        "target_domain": "Attention",
+        "examples": { "example": "the course really did not grab my attention" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:39:10"
+      },
+      {
+        "name": "Effects Are Forces",
+        "source_domain": "Forces",
+        "target_domain": "Effects",
+        "examples": { "example": "what imapct has arthritis had on your life" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:39:52"
+      },
+      {
+        "name": "Body Parts As Animate Beings",
+        "source_domain": "Animate Beings",
+        "target_domain": "Body Parts",
+        "examples": {
+          "example": [
+            "my knee is very severe at the moment",
+            "my knee went last year"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:41:14"
+      },
+      {
+        "name": "Physical Ailments As Animate Beings",
+        "source_domain": "Animate Beings",
+        "target_domain": "Physical Ailments",
+        "examples": { "example": "the pain has pursued me for seven years" },
+        "origin": "self",
+        "timestamp": "2002-08-20T12:42:23"
+      },
+      {
+        "name": "Waiting Is Being Suspended",
+        "source_domain": "Suspended",
+        "target_domain": "Waiting",
+        "examples": { "example": "hang on" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:26:05"
+      },
+      {
+        "name": "Society Is A Container",
+        "source_domain": "Container",
+        "target_domain": "Society",
+        "examples": { "example": "get the information out into the community" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:29:17"
+      },
+      {
+        "name": "People Are Machines",
+        "source_domain": "Machines",
+        "target_domain": "People",
+        "examples": { "example": "this set up an allergic reaction" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:29:58"
+      },
+      {
+        "name": "Pain As A Heated Substance",
+        "source_domain": "Heated Substance",
+        "target_domain": "Pain",
+        "examples": { "example": "a flare of pain" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:30:36"
+      },
+      {
+        "name": "People Are Consumer Products",
+        "source_domain": "Consumer Products",
+        "target_domain": "People",
+        "examples": { "example": "my body has had a bit of wear and tear" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:33:29"
+      },
+      {
+        "name": "Information As Possession",
+        "source_domain": "Possession",
+        "target_domain": "Information",
+        "parent": "Ideas As Possessions",
+        "examples": {
+          "example": [
+            "give me your name",
+            "let me give you my number"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:34:32"
+      },
+      {
+        "name": "Organisation As Container",
+        "source_domain": "Container",
+        "target_domain": "Organisation",
+        "origin": "self",
+        "timestamp": "2002-08-20T13:37:15"
+      },
+      {
+        "name": "Hardship Is A Prison",
+        "source_domain": "Prison",
+        "target_domain": "Hardship",
+        "examples": { "example": "my illness has imprisoned me" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:37:58"
+      },
+      {
+        "name": "Problem As Turbulence",
+        "source_domain": "Turbulence",
+        "target_domain": "Problem",
+        "examples": { "example": "the situation has calmed down" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:41:36"
+      },
+      {
+        "name": "Interests Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "Interests",
+        "examples": { "example": "i am very into music" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:42:10"
+      },
+      {
+        "name": "Experience As Container",
+        "source_domain": "Container",
+        "target_domain": "Experience",
+        "examples": {
+          "example": "
+is there anything positive that has come out of this
+"
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:44:45"
+      },
+      {
+        "name": "Weakness Is Transfer",
+        "source_domain": "Transfer",
+        "target_domain": "Weakness",
+        "examples": {
+          "example": [
+            "give in",
+            "give up",
+            "giving out"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:45:34"
+      },
+      {
+        "name": "Functionality Is Presence",
+        "source_domain": "Presence",
+        "target_domain": "Functionality",
+        "examples": { "example": "my knee went" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:46:23"
+      },
+      {
+        "name": "Groups Are Shapes",
+        "source_domain": "Shapes",
+        "target_domain": "Group",
+        "examples": { "example": "he is not in my circle of friends" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:46:59"
+      },
+      {
+        "name": "People Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "People",
+        "examples": { "example": "i can confide in him" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:47:40"
+      },
+      {
+        "name": "Journey As Physical Object",
+        "source_domain": "Physical Object",
+        "target_domain": "Journey",
+        "examples": {
+          "example": "
+if you take the car it will cut the length of your journey
+"
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:50:49"
+      },
+      {
+        "name": "Loss Is Loss Of Conscious Focus",
+        "source_domain": "Conscious Focus",
+        "target_domain": "Loss",
+        "examples": {
+          "example": [
+            "I lost myself in your book",
+            "I have lost the plot",
+            "He had lost track of time"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:52:54"
+      },
+      {
+        "name": "Knowledge Is Up",
+        "source_domain": "Up",
+        "target_domain": "Knowledge",
+        "parent": "Amount Is Verticality",
+        "examples": { "example": "I am reading up on metaphor" },
+        "origin": "self",
+        "timestamp": "2002-08-20T13:53:55"
+      },
+      {
+        "name": "Amount Is Verticality",
+        "source_domain": "Verticality",
+        "target_domain": "Amount",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "I am raising the pass mark" },
+        "origin": "mml",
+        "timestamp": "2002-08-20T13:58:31"
+      },
+      {
+        "name": "Illness Is War/Physical Combat",
+        "source_domain": "War",
+        "target_domain": "Illness",
+        "origin": "self",
+        "timestamp": "2002-08-20T13:59:32"
+      },
+      {
+        "name": "States Are Containers",
+        "source_domain": "Containers",
+        "target_domain": "States",
+        "examples": {
+          "example": [
+            "i am in a mess",
+            "i am in trouble"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T14:02:38"
+      },
+      {
+        "name": "Social Group As Containers",
+        "source_domain": "Containers",
+        "target_domain": "Social Groups",
+        "examples": {
+          "example": [
+            "i am in this frienship",
+            "i am in this society"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T14:03:44"
+      },
+      {
+        "name": "Difficulty Is Weight",
+        "source_domain": "Weight",
+        "target_domain": "Difficulty",
+        "parent": "Properties As Physical Properties",
+        "examples": {
+          "example": [
+            "this is a heavy matter to discuss now",
+            "he got off light"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-08-20T14:04:39"
+      },
+      {
+        "name": "Physical Ailment As Animate Being",
+        "source_domain": "Animate Being",
+        "target_domain": "Physical Ailment",
+        "origin": "self",
+        "timestamp": "2002-08-29T13:35:40"
+      },
+      {
+        "name": "People Are Fictitious Creatures",
+        "source_domain": "Fictitious Creatures",
+        "target_domain": "People",
+        "examples": { "example": "we're such ogres" },
+        "origin": "self",
+        "timestamp": "2002-08-29T13:42:17"
+      },
+      {
+        "name": "Conditions Are Possessions",
+        "source_domain": "Possession",
+        "target_domain": "Condition",
+        "origin": "self",
+        "timestamp": "2002-08-29T13:43:46"
+      },
+      {
+        "name": "Problems As Possessions",
+        "source_domain": "Possession",
+        "target_domain": "Problems",
+        "parent": "Conditions As Possessions",
+        "examples": { "example": "I have a problem" },
+        "origin": "self",
+        "timestamp": "2002-08-29T13:44:33"
+      },
+      {
+        "name": "Responsibility As Direction",
+        "source_domain": "Direction",
+        "target_domain": "Responsibility",
+        "origin": "self",
+        "timestamp": "2002-08-29T13:45:39"
+      },
+      {
+        "name": "Obscurity As A Container",
+        "source_domain": "Container",
+        "target_domain": "Obscurity",
+        "examples": { "example": "i found out" },
+        "origin": "self",
+        "timestamp": "2002-08-29T13:50:30"
+      },
+      {
+        "name": "Events Are Targets",
+        "source_domain": "Targets",
+        "target_domain": "Events",
+        "examples": { "example": "I missed the appointment" },
+        "origin": "self",
+        "timestamp": "2002-08-29T13:51:56"
+      },
+      {
+        "name": "Management Is Transfer",
+        "source_domain": "Transfer",
+        "target_domain": "Management",
+        "origin": "self",
+        "timestamp": "2002-08-29T13:55:16"
+      },
+      {
+        "name": "Solution As A Target",
+        "source_domain": "Target",
+        "target_domain": "Solution",
+        "examples": { "example": "I aimed for the right answer" },
+        "origin": "self",
+        "timestamp": "2002-08-29T13:56:26"
+      },
+      {
+        "name": "Mind Is A Fighter",
+        "source_domain": "Fighter",
+        "target_domain": "Mind",
+        "parent": "Difficult Subjects Are Adversaries",
+        "examples": { "example": "My brain has struggled with the homework" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:09:49"
+      },
+      {
+        "name": "Thinking Is Struggling",
+        "source_domain": "Struggle",
+        "target_domain": "Thinking",
+        "parent": "Difficult Subjects Are Adversaries",
+        "examples": { "example": "He wrestked witht he new idea" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:10:50"
+      },
+      {
+        "name": "
+Understanding/Learning Is Gaining Physical Control Over The Material
+",
+        "source_domain": "Control",
+        "target_domain": "Understanding",
+        "parent": "Difficult Subjects Are Adversaries",
+        "examples": {
+          "example": [
+            "I tackled the material",
+            "I conquered the material"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:13:17"
+      },
+      {
+        "name": "Mind Is A Parent",
+        "source_domain": "Parent",
+        "target_domain": "Mind",
+        "parent": "Ideas Are Children",
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:16:17"
+      },
+      {
+        "name": "Thinking Is Giving Birth",
+        "source_domain": "Giving Birth",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Children",
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:16:43"
+      },
+      {
+        "name": "Thinking Is Having Ideas Develop/grow",
+        "source_domain": "Growth",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Children",
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:17:13"
+      },
+      {
+        "name": "Remembering Is Resurrecting",
+        "source_domain": "Resurrecting",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Children",
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:17:58"
+      },
+      {
+        "name": "Mind Is A Traveller",
+        "source_domain": "Travel",
+        "target_domain": "Mind",
+        "parent": "Ideas Are Locations",
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:19:18"
+      },
+      {
+        "name": "Thinking Is Moving In The Ideascape",
+        "source_domain": "Landscape",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Locations",
+        "examples": {
+          "example": [
+            "My fear keot me from getting to the truth",
+            "reason leads me to the conclusion"
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:21:36"
+      },
+      {
+        "name": "Understanding Is Arriving",
+        "source_domain": "Location",
+        "target_domain": "Understanding",
+        "parent": "Ideas Are Locations",
+        "examples": { "example": "Have you got to the point?" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:24:47"
+      },
+      {
+        "name": "Communication Is Guiding",
+        "source_domain": "Location",
+        "target_domain": "Communication",
+        "parent": "Ideas Are Locations",
+        "examples": { "example": "The book led him to an understanding of history" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:26:06"
+      },
+      {
+        "name": "Mind Is A Container For Objects",
+        "source_domain": "Container",
+        "target_domain": "Mind",
+        "parent": "Ideas Are Objects",
+        "examples": { "example": "I can't get this idea out of my mind" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:31:37"
+      },
+      {
+        "name": "Thinking Is Possessing An Object",
+        "source_domain": "Possessing",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Objects",
+        "examples": { "example": "I have an idea" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:39:12"
+      },
+      {
+        "name": "Thinking Is Manipulating An Object",
+        "source_domain": "Manipulation",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Objects",
+        "examples": { "example": "I'm playing with the idea of a trip to Hawaii." },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:40:05"
+      },
+      {
+        "name": "Understanding Is Grasping",
+        "source_domain": "Grasping",
+        "target_domain": "Thinking",
+        "parent": "Ideas Are Objects",
+        "examples": {
+          "example": [
+            "I got it.",
+            "have a firm grasp of the subject.",
+            "hat idea is above me."
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:40:47"
+      },
+      {
+        "name": "Importance Is Centrality",
+        "source_domain": "Location",
+        "target_domain": "Importance",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "Let's strip away all the unimportant details." },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:44:43"
+      },
+      {
+        "name": "Importance Is Interiority",
+        "source_domain": "Location",
+        "target_domain": "Importance",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "This is the core of the matter" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:45:11"
+      },
+      {
+        "name": "Importance Is Size",
+        "source_domain": "Size",
+        "target_domain": "Importance",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "He concentrates on little details.",
+            "That's a big discovery.",
+            "Let's look at the larger issues."
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:45:57"
+      },
+      {
+        "name": "Importance Is Depth",
+        "source_domain": "Height",
+        "target_domain": "Importance",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "There's a deeper issue here.",
+            "Let's ignore all the details on the surface."
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:46:43"
+      },
+      {
+        "name": "Amount Is Length",
+        "source_domain": "Length",
+        "target_domain": "Amount",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "He's short of money." },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:47:40"
+      },
+      {
+        "name": "Amount Is Weight",
+        "source_domain": "Weight",
+        "target_domain": "Amount",
+        "parent": "Properties Are Physical Properties",
+        "examples": { "example": "She's a heavy smoker" },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:48:17"
+      },
+      {
+        "name": "Amount Is Size",
+        "source_domain": "Size",
+        "target_domain": "Amount",
+        "parent": "Properties Are Physical Properties",
+        "examples": {
+          "example": [
+            "I'm not a big eater",
+            "He only has a little money."
+          ]
+        },
+        "origin": "mml",
+        "timestamp": "2002-08-29T14:48:47"
+      },
+      {
+        "name": "Life As A Game",
+        "source_domain": "Game",
+        "target_domain": "Life",
+        "examples": {
+          "example": [
+            "coming to play",
+            "on the ball"
+          ]
+        },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:32:37"
+      },
+      {
+        "name": "Social Interaction As Mixing",
+        "source_domain": "Mixing",
+        "target_domain": "Social Interaction",
+        "examples": { "example": "I mixed well with the group" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:33:44"
+      },
+      {
+        "name": "Context As A Container",
+        "source_domain": "Container",
+        "target_domain": "Context",
+        "examples": { "example": "in theory" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:34:18"
+      },
+      {
+        "name": "Arrangements As Physical Manipulation",
+        "source_domain": "Manipulation",
+        "target_domain": "Arrangements",
+        "examples": { "example": "he put me in touch with her" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:35:17"
+      },
+      {
+        "name": "Intelligence As Speed",
+        "source_domain": "Speed",
+        "target_domain": "Intelligence",
+        "examples": { "example": "he's quick" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:35:54"
+      },
+      {
+        "name": "Organisations As Constructions",
+        "source_domain": "Constructions",
+        "target_domain": "Organisations",
+        "examples": { "example": "i build up this organisation from scratch" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:36:47"
+      },
+      {
+        "name": "Relationships As Constructed Objects",
+        "source_domain": "Objects",
+        "target_domain": "Relationships",
+        "examples": { "example": "we broke up" },
+        "origin": "self",
+        "timestamp": "2002-09-02T09:38:01"
+      },
+      {
+        "name": "Responsible Person Is Up",
+        "source_domain": "Up",
+        "target_domain": "Responsible Person",
+        "examples": { "example": "its up to you" },
+        "origin": "self",
+        "timestamp": "2002-09-03T13:52:04"
+      },
+      {
+        "name": "Responsible Person Is Down",
+        "source_domain": "Down",
+        "target_domain": "Responsible Person",
+        "examples": { "example": "its down to Fred" },
+        "origin": "self",
+        "timestamp": "2002-09-03T14:12:14"
+      },
+      {
+        "name": "Cause Is Down",
+        "source_domain": "Down",
+        "target_domain": "Cause",
+        "examples": {
+          "example": "
+It's all down to inflation that the prices are rising
+"
+        },
+        "origin": "self",
+        "timestamp": "2002-09-03T14:12:55"
+      },
+      {
+        "name": "Problem As Disorganistation",
+        "source_domain": "Disorganisation",
+        "target_domain": "Problem",
+        "examples": { "example": "She sorted out the problem" },
+        "origin": "mml",
+        "timestamp": "2002-09-10T10:33:23"
+      },
+      {
+        "name": "Idiom",
+        "source_domain": "Idiom",
+        "target_domain": "Idiom",
+        "origin": "self",
+        "timestamp": "2002-09-23T11:27:03"
+      },
+      {
+        "name": "Stability Is Balance",
+        "source_domain": "Balance",
+        "target_domain": "Stability",
+        "parent": "Emotional Stability Is Balance",
+        "examples": { "example": "the situation remained stable for three years" },
+        "origin": "mml-",
+        "timestamp": "2002-09-23T11:30:24"
+      },
+      {
+        "name": "Sequence As Wave",
+        "source_domain": "Wave",
+        "target_domain": "Sequence",
+        "examples": { "example": "a wave of new opportunities" },
+        "origin": "self",
+        "timestamp": "2002-09-23T11:31:28"
+      },
+      {
+        "name": "Organisations As Living Beings",
+        "source_domain": "Living Beings",
+        "target_domain": "Organisations",
+        "origin": "self",
+        "timestamp": "2002-09-23T11:32:09"
+      },
+      {
+        "name": "States Are Targets",
+        "source_domain": "Targets",
+        "target_domain": "States",
+        "examples": { "example": "I am aiming to graduate by October" },
+        "origin": "self",
+        "timestamp": "2002-09-23T11:34:25"
+      },
+      {
+        "name": "Use Is Expenditure",
+        "source_domain": "Expenditure",
+        "target_domain": "Use",
+        "examples": { "example": "spent materials" },
+        "origin": "self",
+        "timestamp": "2002-09-23T11:39:04"
+      },
+      {
+        "name": "Quantity Is Wealth",
+        "source_domain": "Wealth",
+        "target_domain": "Quantity",
+        "examples": { "example": "rich in fibre" },
+        "origin": "self",
+        "timestamp": "2002-09-23T11:40:16"
+      }
+    ]
+  }
+}
